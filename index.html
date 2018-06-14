@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <title>
+        Crystal Collecter Game
+    </title>
+
+    <link rel="stylesheet" href="assets/reset.css">
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <script type="text/javascript" src="assets/javascript.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+
+    <link rel="stylesheet" href="assets/style.css">
+
+
+</head>
+
+<body>
+
+    <div>
+    <h1>Crystal Collector Game</h1>
+</div>
+
+<div>
+    <p> You will be given a random number at the start of the game.</p>
+
+    <p>There are four crystals below. By clicking on a crystal you will 
+        add a specific amount of points to your total score. </p>
+
+      <p>  You win the game by matching your total scroe with the random number. 
+        You lose the game by going over your total score, so be careful when 
+        collecting crystals!
+    </p>
+
+    
+    <p>The value of each crystal is hidden.
+        </p>
+
+
+</div>
+
+<div class="row">
+        <div class="col-sm-2"><h2 id="RanNum">19-120<h2></div>
+        <div class="col-sm-1">
+            <p>Wins: 0</p>
+            <p>Losses: 0</p>
+        </div>
+</div>
+
+<div class="row">
+
+        <div class="col-sm-2">
+            <img id="c1"style="width:50%;height:auto;"src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642">
+        </div>
+
+        <div class="col-sm-2">
+                <img id="c2" style="width:50%;height:auto;"src="https://vignette.wikia.nocookie.net/fenlei/images/d/d8/Crystal_cosmic.png/revision/latest?cb=20170430190537">
+        </div>
+
+        <div class="col-sm-2">
+                <img id="c3"style="width:50%;height:auto;" src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/c/c3/Crystal_iso8.png/revision/latest?cb=20151121235324">
+        </div>
+
+        <div class="col-sm-2">
+                <img id="c4"style="width:50%;height:auto;"src="https://mbch.guide/wp-content/uploads/crystal_versus.png">
+        </div>
+    
+</div>
+
+<div class="row">
+        <div class="col-sm-2">
+            <div>
+                 <h3>Your total score is</h3>
+            </div>
+            <div>
+                <h2 id="crystalNum">1-12</h2>
+             </div>
+            </div>
+    
+</div>
+
+<div>
+<button id="startGame" onclick="onStart()"> New Game </button>
+</div>
+
+</body>
+
+</html>
