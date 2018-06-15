@@ -20,19 +20,18 @@
 
 </head>
 
-<body>
+<body style="background:black;">
 
-    <div>
-    <h1>Crystal Collector Game</h1>
-</div>
+    <div class= "container">
 
+        <h1 >Crystal Collector Game</h1>
 <div>
-    <p> You will be given a random number at the start of the game.</p>
+    <p > You will be given a random number at the start of the game.</p>
 
-    <p>There are four crystals below. By clicking on a crystal you will 
+    <p >There are four crystals below. By clicking on a crystal you will 
         add a specific amount of points to your total score. </p>
 
-      <p>  You win the game by matching your total scroe with the random number. 
+      <p >  You win the game by matching your total scroe with the random number. 
         You lose the game by going over your total score, so be careful when 
         collecting crystals!
     </p>
@@ -44,12 +43,21 @@
 
 </div>
 
+<br>
+ 
 <div class="row">
-        <div class="col-sm-2"><h2 id="RanNum">0<h2></div>
-        <div class="col-sm-1">
-            <p id ="w">wins: 0</p>
-            <p id="l">losses: 0</p>
+
+
+        <div class="col-sm-2">
+            <h2 id="RanNum">0<h2>
         </div>
+
+        <div class="col-sm-2">
+            <p id ="w">wins: 0</p>
+            <p  id="l">losses: 0</p>
+        </div>
+
+
 </div>
 
 <div class="row">
@@ -87,7 +95,7 @@
 <div>
 <button id="startGame" onclick="onStart();"> New Game </button>
 </div>
-
+</div>
 </body>
 
 </html>
